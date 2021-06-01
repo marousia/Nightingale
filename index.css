@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding:0;
+    color:white;
+    font-family: sans-serif;
+}
+body{ background: rgb(22, 23, 24);}
+.container{
+    width:1100px;
+    height: 800px;
+    border:3px solid white;
+    border-radius: 2%;
+    margin: auto;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: column nowrap;
+    padding: 0 150px 0 150px;
+}
+.header{
+    font-size:120%;
+}
+.nav{
+    width:inherit;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size:20px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.main{
+    width: inherit;
+    height: 500px;
+    border:3px solid white;
+}
