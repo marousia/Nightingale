@@ -48,37 +48,3 @@ body{
     height: 20rem;
     border: 3px solid hsl(0deg 0% 90%);
 }
-
-.about-us-text-container {
-    text-align: center;
-}
-
-.about-us-text {
-    text-align: left;
-    padding-top: 2rem;
-    padding-left: 10%;
-    width: 80%;
-    font-size: 20px;
-}
-
-.box-banners-container {
-    display: flex;
-    justify-content: center;
-}
-
-.box-banner {
-    margin-left: 2rem;
-    margin: 5rem;
-    margin-top: 2rem;
-    height: 5rem;
-    min-width: 6rem;
-    border: 3px solid hsl(0deg 0% 90%);
-}
-
-.contact-us {
-    display: inline;
-}
-
-#contact-us-text {
-    margin-right: 25rem;
-}
