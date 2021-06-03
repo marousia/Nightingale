@@ -5,6 +5,10 @@
     font-family: sans-serif;
 }
 
+a {
+    cursor: pointer;
+}
+
 body{ 
     background: hsl(216deg 7% 5% / 90%);
 }
