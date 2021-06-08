@@ -4,10 +4,12 @@
     color:white;
     font-family: sans-serif;
 }
+
 body{ background: rgb(22, 23, 24);}
+
 .container{
     width:1100px;
-    height: 800px;
+    height: 100vh;
     border:3px solid white;
     border-radius: 2%;
     margin: auto;
@@ -18,10 +20,12 @@ body{ background: rgb(22, 23, 24);}
     flex-flow: column nowrap;
     padding: 0 150px 0 150px;
 }
-.header{
+
+header{
     font-size:120%;
 }
-.nav{
+
+nav{
     width:inherit;
     display: flex;
     justify-content: space-around;
@@ -30,8 +34,18 @@ body{ background: rgb(22, 23, 24);}
     font-weight: 700;
     text-decoration: underline;
 }
-.main{
+
+main{
     width: inherit;
-    height: 500px;
+    height: 70vh;
     border:3px solid white;
+    border-radius: 2%;
+}
+
+.contacts{
+    width: inherit;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
 }
