@@ -41,11 +41,11 @@ body{
 }
 
 .main{
-
     width: 900px;
     height: 70rem;
     border: 3px solid hsl(0deg 0% 90%);
     border-radius: 2%;
+    padding: 15px;
 }
 
 .about-us-banner {
